@@ -1,0 +1,24 @@
+{
+  "name": "@infish/module",
+  "version": "0.0.1",
+  "description": "typescript module library",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "lib/**/*",
+    "webpack-loader/**/*"
+  ],
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "author": "alokings",
+  "license": "MIT",
+  "dependencies": {
+    "eventemitter3": "^4.0.7"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
