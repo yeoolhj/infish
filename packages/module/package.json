@@ -1,6 +1,6 @@
 {
-  "name": "@infish/module",
-  "version": "0.0.1",
+  "name": "infish",
+  "version": "0.0.2",
   "description": "typescript module library",
   "main": "lib/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "files": [
     "lib/**/*",
-    "webpack-loader/**/*"
+    "webpack/**/*"
   ],
   "exports": {
     ".": "./lib/index.js"

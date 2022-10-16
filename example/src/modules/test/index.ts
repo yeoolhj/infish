@@ -1,4 +1,4 @@
-import { ModuleRoot } from "@infish/module";
+import { ModuleRoot } from "infish";
 import { reactive } from "vue";
 import { testAction } from "./actions";
 import { testEvent } from "./events";

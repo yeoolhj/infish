@@ -997,12 +997,6 @@
   "resolved" "http://124.70.149.18:4873/@humanwhocodes%2fobject-schema/-/object-schema-1.2.1.tgz"
   "version" "1.2.1"
 
-"@infish/shoal@file:../packages/shoal":
-  "resolved" "file:../packages/shoal"
-  "version" "0.0.1"
-  dependencies:
-    "eventemitter3" "^4.0.7"
-
 "@jridgewell/gen-mapping@^0.1.0":
   "integrity" "sha512-sQXCasFk+U8lWYEe66WxRDOE9PjVz4vSM51fTu3Hw+ClTpUSQb718772vH3pyS5pShp6lvQM7SxgIDXXXmOX7w=="
   "resolved" "http://124.70.149.18:4873/@jridgewell%2fgen-mapping/-/gen-mapping-0.1.1.tgz"
@@ -3806,6 +3800,12 @@
   "integrity" "sha1-khi5srkoojixPcT7a21XbyMUU+o="
   "resolved" "http://124.70.149.18:4873/imurmurhash/-/imurmurhash-0.1.4.tgz"
   "version" "0.1.4"
+
+"infish@file:../packages/module":
+  "resolved" "file:../packages/module"
+  "version" "0.0.2"
+  dependencies:
+    "eventemitter3" "^4.0.7"
 
 "inflight@^1.0.4":
   "integrity" "sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk="

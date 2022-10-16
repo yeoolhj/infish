@@ -5,8 +5,8 @@ module.exports = defineConfig({
   chainWebpack: (config) => {
     const tsRule = config.module.rule("ts");
     tsRule
-      .use("infish-shoal-loader")
-      .loader("../packages/shoal/webpack-loader/loader.js")
+      .use("infish-module-loader")
+      .loader("../packages/module/webpack/loader.js")
       .options({
         include: [path.resolve(__dirname, "./src/modules")],
       })

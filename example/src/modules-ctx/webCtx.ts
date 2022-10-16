@@ -1,5 +1,5 @@
 import { test, log } from "@/modules";
-import { createCtx } from "@infish/module";
+import { createCtx } from "infish";
 import { testEvt } from "./events/testEvt";
 
 export const webCtx = createCtx({

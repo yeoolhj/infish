@@ -1,4 +1,4 @@
-import { ICtx } from "@infish/module";
+import { ICtx } from "infish";
 
 export const testEvt = (ctx: ICtx) => {
   const { test, log } = ctx;

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>welcome to use @infish/module</h2>
+    <h2>welcome to use infish</h2>
     <div>
       <h4>home.list</h4>
       <div v-for="(item, i) in test.state.list" :key="i">{{ item }}</div>
